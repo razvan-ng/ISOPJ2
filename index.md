@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PROJECTE 1 - Implementació i Gestió d’un Sistema Ubuntu Linux amb Tecnologia ABP."
+title: "PROJECTE 2 - Implementació i Gestió d’un Sistema Windows amb Tecnologia ABP."
 ---
 
 ## Contingut del curs
