@@ -125,14 +125,13 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 <img width="963" height="698" alt="image" src="https://github.com/user-attachments/assets/74f63eef-a11f-46c6-89c1-55fcd94fcf68" />
 <img width="990" height="688" alt="image" src="https://github.com/user-attachments/assets/542eace5-4c3d-449b-9477-ee3f06ae028a" />
 
-
 ---
 
 ## Pas 5 – Comprovar que arrenca correctament
 
-* Quan la instal·lació finalitza, reinicio la màquina virtual i comprovo que Windows arrenca correctament. El sistema entra a l’escriptori sense errors i queda llest per començar la configuració posterior.
+Quan la instal·lació finalitza, reinicio la màquina virtual i comprovo que Windows arrenca correctament. El sistema entra a l’escriptori sense errors i queda llest per començar la configuració posterior.
 
-![Pas 5 – Windows arrencat correctament](imatges-windows/7.png)
+<img width="1020" height="768" alt="image" src="https://github.com/user-attachments/assets/64caebd3-34a9-4b5e-8481-376eba66f3d7" />
 
 ---
 
@@ -140,47 +139,79 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 
 ## Pas 6 – Cercar "Crear un punt de restauració"
 
-* Des del cercador de Windows busco l’opció **“Crear un punt de restauració”** per accedir a la configuració de protecció del sistema.
+Des del cercador de Windows busco l’opció **“Crear un punt de restauració”** per accedir a la configuració de protecció del sistema.
 
-![Pas 6 – Cerca de “Crear un punt de restauració”](imatges-windows/8.png)
+<img width="788" height="673" alt="image" src="https://github.com/user-attachments/assets/27063f11-fb52-4d9b-beae-6f66d4ed9889" />
 
 ---
 
 ## Pas 7 – Activar la protecció del sistema al disc C:
 
-* A la finestra de **Protecció del sistema**, selecciono el disc **C:** i activo la protecció del sistema. Aquesta opció és necessària per poder crear punts de restauració i tornar a un estat anterior del sistema si hi ha algun problema.
+A la finestra de **Protecció del sistema**, selecciono el disc **C:** i activo la protecció del sistema. Aquesta opció és necessària per poder crear punts de restauració i tornar a un estat anterior del sistema si hi ha algun problema.
 
-![Pas 7a – Protecció del sistema desactivada](imatges-windows/9.png)
+<img width="406" height="466" alt="image" src="https://github.com/user-attachments/assets/b585316e-99ea-44a9-8376-c76287343969" />
 
-![Pas 7b – Activació de la protecció del sistema al disc C:](imatges-windows/10.png)
+<img width="864" height="520" alt="image" src="https://github.com/user-attachments/assets/7246026c-795c-46a4-b428-69cd635521fc" />
+
+<img width="367" height="98" alt="image" src="https://github.com/user-attachments/assets/8b58981d-6a6f-4205-be03-ff01a4e166de" />
 
 ---
 
 ## Pas 8 – Crear un punt de restauració manual
 
-* Una vegada activada la protecció, creo manualment un punt de restauració amb una descripció identificativa. Aquest punt servirà per recuperar el sistema més endavant si es fa algun canvi no desitjat.
+Una vegada activada la protecció, creo manualment un punt de restauració amb una descripció identificativa. Aquest punt servirà per recuperar el sistema més endavant si es fa algun canvi no desitjat.
 
-![Pas 8 – Creació del punt de restauració manual](imatges-windows/11.png)
+<img width="404" height="434" alt="image" src="https://github.com/user-attachments/assets/2165a44f-abc5-414f-988a-aa318a22c85a" />
+
+Li posem un nom identificatiu.
+
+<img width="426" height="245" alt="image" src="https://github.com/user-attachments/assets/f3f0ad76-f911-4449-9d70-c385101889a9" />
+
+I esperem a que es completi.
+
+<img width="295" height="98" alt="image" src="https://github.com/user-attachments/assets/1af99264-8064-413c-9fad-133d2623244a" />
+
+Un cop rebem aquest missatge, significa que el punt s'haurà completat correctament.
+
+<img width="361" height="141" alt="image" src="https://github.com/user-attachments/assets/660aa311-0cf4-4c22-b308-a204890f37b1" />
 
 ---
 
 ## Pas 9 – Fer un canvi (instal·lar una app o modificar una configuració)
 
-* Per comprovar que la restauració funciona, faig un canvi al sistema. Aquest canvi pot ser instal·lar un programa, crear un fitxer o modificar alguna configuració del sistema.
+Per comprovar que la restauració funciona, faig un canvi al sistema. Aquest canvi pot ser instal·lar un programa, crear un fitxer o modificar alguna configuració del sistema.
 
-![Pas 9 – Canvi realitzat al sistema](imatges-windows/12.png)
+<img width="380" height="271" alt="image" src="https://github.com/user-attachments/assets/a9cd72a7-7272-4804-8db1-838250fc9393" />
 
 ---
 
 ## Pas 10 – Restaurar i comprovar
 
-* Després utilitzo l’opció **Restaurar sistema** per tornar al punt de restauració que havia creat abans. Una vegada finalitzat el procés, comprovo que el sistema ha tornat a l’estat anterior i que el canvi fet ja no hi és.
+Després utilitzo l’opció **Restaurar sistema** per tornar al punt de restauració que havia creat abans. Una vegada finalitzat el procés, comprovo que el sistema ha tornat a l’estat anterior i que el canvi fet ja no hi és.
 
-![Pas 10a – Inici de la restauració del sistema](imatges-windows/13.png)
+<img width="422" height="490" alt="image" src="https://github.com/user-attachments/assets/5630b9ea-5d76-4c35-8b09-414232eff81c" />
 
-![Pas 10b – Selecció del punt de restauració](imatges-windows/14.png)
+Fem click sobre _Next_.
 
-![Pas 10c – Comprovació final després de restaurar](imatges-windows/15.png)
+<img width="561" height="454" alt="image" src="https://github.com/user-attachments/assets/a4131ca7-449b-4e65-a536-3da09187d78e" />
+
+Escollim el punt de restauració que hem creat abans i fem click sobre _Next_.
+
+<img width="562" height="458" alt="image" src="https://github.com/user-attachments/assets/a233baf5-ac52-4797-a328-2c16d8b26182" />
+
+I finalment fem click sobre _Finish_ i _Yes_.
+
+<img width="579" height="465" alt="image" src="https://github.com/user-attachments/assets/4befb6a8-5617-4d8a-8868-7d0e3e51cfe5" />
+
+<img width="522" height="194" alt="image" src="https://github.com/user-attachments/assets/99168f33-6486-4352-9059-cc0154653559" />
+
+I esperem que s'acabi la restauració.
+
+<img width="703" height="352" alt="image" src="https://github.com/user-attachments/assets/e52250d6-22b7-4764-b8bf-e4b3842c8773" />
+
+Un cop arranqui i veiguem l'escriptori podrem veure que el document ha desaparegut. Això ens confirma que s'ha restaurat correctament.
+
+<img width="1003" height="713" alt="image" src="https://github.com/user-attachments/assets/5182be56-37f2-4bad-bf77-96ac5108b028" />
 
 ---
 
@@ -188,25 +219,25 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 
 ## Pas 11 – Obrir Configuració → Sistema → Activació
 
-* En aquest pas obro **Configuració** i vaig a l’apartat **Sistema > Activació** per veure l’estat de la llicència de Windows.
+En aquest pas busco _Activation settings_ i entro dins de l'apartat corresponent.
 
-![Pas 11 – Pantalla d’activació de Windows](imatges-windows/16.png)
+<img width="863" height="732" alt="image" src="https://github.com/user-attachments/assets/46396a41-33bf-42cf-a5c3-45e2709c77ba" />
 
 ---
 
 ## Pas 12 – Veure si Windows està activat
 
-* En la pantalla d’activació comprovo si el sistema està activat o no. Això em permet saber si Windows té una llicència vàlida o si encara està pendent d’activació.
+En la pantalla d’activació comprovo si el sistema està activat o no. Això em permet saber si Windows té una llicència vàlida o si encara està pendent d’activació.
 
-![Pas 12 – Estat de l’activació de Windows](imatges-windows/17.png)
+<img width="779" height="470" alt="image" src="https://github.com/user-attachments/assets/a692592c-b0ae-4246-bd9b-a16a1a5cdb6a" />
 
 ---
 
 ## Pas 13 – Executar al CMD: `slmgr /xpr`
 
-* Obro el símbol del sistema i executo la comanda `slmgr /xpr`. Aquesta comanda mostra informació sobre l’estat de l’activació i permet saber si la llicència és permanent o si el sistema es troba en mode de notificació.
+Obro el símbol del sistema i executo la comanda `slmgr /xpr`. Aquesta comanda mostra informació sobre l’estat de l’activació i permet saber si la llicència és permanent o si el sistema es troba en mode de notificació.
 
-![Pas 13 – Resultat de la comanda slmgr /xpr](imatges-windows/18.png)
+<img width="640" height="415" alt="image" src="https://github.com/user-attachments/assets/ddeef212-e98c-4f68-b2f5-fe114364ffa0" />
 
 ---
 
@@ -235,40 +266,37 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 > | Windows 11 Pro | al voltant de 259 € |
 >
 > El preu pot variar segons la botiga o el tipus de llicència.
-
-![Pas 15 – Consulta del preu de la llicència](imatges-windows/19.png)
-
 ---
 
 # Fase 4 – Gestor d’arrencada
 
 ## Pas 16 – Obrir Command Prompt com a administrador
 
-* Busco **cmd** al cercador de Windows i l’obro amb l’opció **Executar com a administrador** per poder consultar la configuració d’arrencada del sistema.
+Busco **cmd** al cercador de Windows i l’obro amb l’opció **Executar com a administrador** per poder consultar la configuració d’arrencada del sistema.
 
-![Pas 16 – CMD obert com a administrador](imatges-windows/20.png)
+<img width="765" height="617" alt="image" src="https://github.com/user-attachments/assets/c96f17c4-e9d0-414a-a493-e2eb1bda3a90" />
 
 ---
 
 ## Pas 17 – Executar `bcdedit`
 
-* Executo la comanda `bcdedit`, que mostra la informació del gestor d’arrencada de Windows i les entrades configurades al sistema.
+Executo la comanda `bcdedit`, que mostra la informació del gestor d’arrencada de Windows i les entrades configurades al sistema.
 
-![Pas 17 – Resultat de la comanda bcdedit](imatges-windows/21.png)
+<img width="599" height="633" alt="image" src="https://github.com/user-attachments/assets/51ad3801-4401-40b8-bb24-322446f1cfb2" />
 
 ---
 
 ## Pas 18 – Identificar els blocs Boot Manager i Boot Loader
 
-* En la sortida de `bcdedit` identifico dos blocs principals:
+En la sortida de `bcdedit` identifico dos blocs principals:
     - **Windows Boot Manager**
     - **Windows Boot Loader**
 
-* Al bloc **Boot Manager** m’interessa sobretot veure el valor `default` i el valor `timeout`.
+Al bloc **Boot Manager** m’interessa sobretot veure el valor `default` i el valor `timeout`.
 
-* Al bloc **Boot Loader** m’interessa identificar els camps `device`, `path` i `description`.
+Al bloc **Boot Loader** m’interessa identificar els camps `device`, `path` i `description`.
 
-![Pas 18 – Línies importants de Boot Manager i Boot Loader](imatges-windows/22.png)
+<img width="554" height="583" alt="image" src="https://github.com/user-attachments/assets/f975bbc8-aba7-4658-ba8b-c8c50ff133c6" />
 
 ---
 
@@ -321,41 +349,41 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 
 ## Pas 22 – Obrir la configuració de xarxa
 
-* Obro **Configuració > Xarxa i Internet** per veure la configuració de la connexió de xarxa de la màquina virtual.
+Obro **Settings > Network & internet** per veure la configuració de la connexió de xarxa de la màquina virtual.
 
-![Pas 22 – Configuració de xarxa de Windows](imatges-windows/23.png)
+<img width="783" height="499" alt="image" src="https://github.com/user-attachments/assets/e3ce35dd-e1be-44c5-a0e2-d397151f3ce3" />
 
 ---
 
 ## Pas 23 – Consultar la IP amb `ipconfig`
 
-* Obro el CMD i executo la comanda `ipconfig`. Aquesta comanda mostra la configuració IP actual, com l’adreça IPv4, la màscara de subxarxa i la porta d’enllaç.
+Obro el CMD i executo la comanda `ipconfig`. Aquesta comanda mostra la configuració IP actual, com l’adreça IPv4, la màscara de subxarxa i la porta d’enllaç.
 
-![Pas 23 – Resultat de la comanda ipconfig](imatges-windows/24.png)
+<img width="699" height="326" alt="image" src="https://github.com/user-attachments/assets/ba6832e3-8a10-44e0-867d-d49088fb68c0" />
 
 ---
 
 ## Pas 24 – Configurar IP dinàmica (DHCP automàtic)
 
-* Comprovo que la configuració de xarxa està en mode automàtic, és a dir, que la IP s’obté mitjançant **DHCP**. Això vol dir que la configuració la rep automàticament des de la xarxa.
+Comprovo que la configuració de xarxa està en mode automàtic, és a dir, que la IP s’obté mitjançant **DHCP**. Això vol dir que la configuració la rep automàticament des de la xarxa.
 
-![Pas 24 – Configuració IP automàtica amb DHCP](imatges-windows/25.png)
+<img width="390" height="154" alt="image" src="https://github.com/user-attachments/assets/7305133a-ba8d-42dc-a8d8-8f25198d0087" />
 
 ---
 
 ## Pas 25 – Configurar IP fixa (manual)
 
-* Després practico la configuració manual d’una IP fixa, introduint l’adreça IP, la màscara, la porta d’enllaç i el servidor DNS de manera manual.
+Després practico la configuració manual d’una IP fixa, introduint l’adreça IP, la màscara, la porta d’enllaç i el servidor DNS de manera manual.
 
-![Pas 25 – Configuració manual d’IP fixa](imatges-windows/26.png)
+<img width="473" height="519" alt="image" src="https://github.com/user-attachments/assets/15b52d5c-b4b9-4acc-9594-ba6da6e5a8d3" />
 
 ---
 
 ## Pas 26 – Comprovar la connexió amb `ping google.com`
 
-* Finalment executo `ping google.com` per comprovar que la connexió a la xarxa funciona correctament i que hi ha connectivitat amb Internet.
+* Finalment executo `ping iesebre.com` per comprovar que la connexió a la xarxa funciona correctament i que hi ha connectivitat amb Internet. També comprovo que el server DNS funciona correctament.
 
-![Pas 26 – Resultat del ping a google.com](imatges-windows/27.png)
+<img width="573" height="267" alt="image" src="https://github.com/user-attachments/assets/bb2dfdb1-e8ff-4bb9-a58a-fa2cd82676cb" />
 
 ---
 
@@ -365,7 +393,9 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 
 * Busco **Windows PowerShell** al cercador i l’obro per començar a treballar també amb aquest terminal.
 
-![Pas 27 – PowerShell obert](imatges-windows/28.png)
+<img width="735" height="326" alt="image" src="https://github.com/user-attachments/assets/468fff58-8b4c-4d30-8165-0329e3439291" />
+
+<img width="833" height="201" alt="image" src="https://github.com/user-attachments/assets/9bcf56b4-c4eb-4625-8962-f7b9d9a0e84b" />
 
 ---
 
@@ -386,13 +416,17 @@ Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nost
 * En aquest pas provo diverses comandes bàsiques:
     - `dir` per veure fitxers i carpetes
     - `cd` per moure’m per directoris
-    - `mkdir prova` per crear una carpeta
+    - `mkdir carpeta` per crear una carpeta
     - `echo hola > fitxer.txt` per crear un fitxer
     - `del fitxer.txt` per eliminar-lo
 
-![Pas 29a – Comandes bàsiques executades](imatges-windows/29.png)
+<img width="626" height="353" alt="image" src="https://github.com/user-attachments/assets/55eb7641-2fbb-40fc-843f-9808168b2e5c" />
 
-![Pas 29b – Comprovació del fitxer i la carpeta creats](imatges-windows/30.png)
+<img width="643" height="461" alt="image" src="https://github.com/user-attachments/assets/68916251-147d-4b2e-9334-78163b350d51" />
+
+<img width="663" height="503" alt="image" src="https://github.com/user-attachments/assets/fcdff01e-e7bc-4428-84c6-3c251a51087b" />
+
+<img width="625" height="486" alt="image" src="https://github.com/user-attachments/assets/800bad1b-565f-4b18-8b49-6cc630ba16b8" />
 
 ---
 
