@@ -381,7 +381,7 @@ Després practico la configuració manual d’una IP fixa, introduint l’adreç
 
 ## Pas 26 – Comprovar la connexió amb `ping google.com`
 
-* Finalment executo `ping iesebre.com` per comprovar que la connexió a la xarxa funciona correctament i que hi ha connectivitat amb Internet. També comprovo que el server DNS funciona correctament.
+Finalment executo `ping iesebre.com` per comprovar que la connexió a la xarxa funciona correctament i que hi ha connectivitat amb Internet. També comprovo que el server DNS funciona correctament.
 
 <img width="573" height="267" alt="image" src="https://github.com/user-attachments/assets/bb2dfdb1-e8ff-4bb9-a58a-fa2cd82676cb" />
 
@@ -413,7 +413,7 @@ Després practico la configuració manual d’una IP fixa, introduint l’adreç
 
 ## Pas 29 – Comandes bàsiques
 
-* En aquest pas provo diverses comandes bàsiques:
+En aquest pas provo diverses comandes bàsiques:
     - `dir` per veure fitxers i carpetes
     - `cd` per moure’m per directoris
     - `mkdir carpeta` per crear una carpeta
@@ -432,47 +432,61 @@ Després practico la configuració manual d’una IP fixa, introduint l’adreç
 
 ## Pas 30 – Comandes útils del sistema
 
-* També executo altres comandes útils:
+També executo altres comandes útils:
     - `tasklist` per veure els processos actius
     - `taskkill /IM notepad.exe /F` per tancar un procés
     - `systeminfo` per veure informació completa del sistema
     - `hostname` per veure el nom de l’equip
     - `whoami` per veure l’usuari actual
 
-![Pas 30a – Resultat de tasklist](imatges-windows/31.png)
+<img width="740" height="621" alt="image" src="https://github.com/user-attachments/assets/5d66ddac-3797-4fd2-8da7-d2d76e24ec76" />
 
-![Pas 30b – Resultat de systeminfo](imatges-windows/32.png)
+Obrim el notepad per provar a matar el seu procés des de la terminal.
 
-![Pas 30c – Resultat de hostname i whoami](imatges-windows/33.png)
+<img width="645" height="84" alt="image" src="https://github.com/user-attachments/assets/4707ddf2-ecde-4782-8523-5ca70036550f" />
+
+<img width="798" height="655" alt="image" src="https://github.com/user-attachments/assets/350ae2fc-cc6f-4c81-b716-6f05b035f229" />
+
+<img width="193" height="69" alt="image" src="https://github.com/user-attachments/assets/e6ae0e2e-f62c-4bb6-a1e5-07ac6c8af7a8" />
+
+<img width="186" height="75" alt="image" src="https://github.com/user-attachments/assets/15805f77-d4f9-4d7e-acff-c588d9ab4675" />
 
 ---
 
 ## Pas 31 – Comandes de xarxa
 
-* A més, provo aquestes comandes de xarxa:
-    - `ipconfig`
-    - `ping google.com`
-    - `netstat -an`
+A més, provo aquestes comandes de xarxa:
+    - `ipconfig` > Per veure la configuració de la xarxa.
+    - `ping 8.8.8.8 ` > Comprovar la connexió a Internet. Si podem fer ping a un server DNS, significa que tenim connexió a la xarxa exterior.
+    - `netstat -an` > Visualitzar connexions i ports oberts.
 
-* Aquestes ordres serveixen per veure la configuració de xarxa, comprovar la connexió i visualitzar connexions i ports oberts.
+<img width="542" height="235" alt="image" src="https://github.com/user-attachments/assets/863b30ab-75aa-470f-b050-bd2f6a5f3bc0" />
 
-![Pas 31 – Resultat de les comandes de xarxa](imatges-windows/34.png)
+<img width="440" height="377" alt="image" src="https://github.com/user-attachments/assets/adfc3d9d-27e1-4343-904e-c910976e1ef1" />
+
+<img width="527" height="652" alt="image" src="https://github.com/user-attachments/assets/e642bb2c-e3c6-4c3f-97e2-d2993ee67c22" />
 
 ---
 
 ## Pas 32 – Comandes interessants (una mica més avançades)
 
-* Finalment provo algunes ordres addicionals:
+Finalment provo algunes ordres addicionals:
     - `tree` per veure l’estructura de carpetes
     - `cls` per netejar la pantalla
     - `help` per veure l’ajuda de comandes
     - `shutdown /s /t 0` per apagar l’equip
 
-* La comanda `shutdown /s /t 0` apaga immediatament la màquina, així que normalment es deixa per al final.
+La comanda `shutdown /s /t 0` apaga immediatament la màquina, així que normalment es deixa per al final.
 
-![Pas 32a – Resultat de tree](imatges-windows/35.png)
+<img width="252" height="312" alt="image" src="https://github.com/user-attachments/assets/a13404ac-b5d1-42b4-9603-323d8f74b5ef" />
 
-![Pas 32b – Resultat de help o cls](imatges-windows/36.png)
+<img width="270" height="100" alt="image" src="https://github.com/user-attachments/assets/7035aa9c-48b7-442a-aa46-204976384dcc" />
+
+<img width="646" height="663" alt="image" src="https://github.com/user-attachments/assets/49a03498-0760-4c61-9d83-30968645ad10" />
+
+He editat el 0 per 5 per tindre temps de fer la captura. Però si ho fem amb 0 la màquina s'apagaria automàticament.
+
+<img width="771" height="508" alt="image" src="https://github.com/user-attachments/assets/cb4f2204-b5db-4c95-b8f7-aabc8c74fe41" />
 
 ---
 
@@ -493,57 +507,113 @@ Després practico la configuració manual d’una IP fixa, introduint l’adreç
 
 ## Pas 34 – Descarregar un programa des del navegador
 
-* Obro el navegador i descarrego un programa, com per exemple **Google Chrome** o **Visual Studio Code**, des de la seua pàgina oficial.
+* Obro el navegador i descarrego un programa, com per exemple **Chrome** o **VS Code**, des de la seua pàgina oficial.
 
-![Pas 34 – Descàrrega d’un programa des del navegador](imatges-windows/37.png)
+Entrem a la pàgina oficial de descarrega de [Google Chrome](https://www.google.com/intl/es_es/chrome/).
+
+<img width="941" height="718" alt="image" src="https://github.com/user-attachments/assets/f4ed98ac-6038-4bdf-acb4-c5a3145fa213" />
+
+Fem click sobre _Descargar Chrome_ i se'ns descarregarà l'executable automàticament.
+
+<img width="941" height="532" alt="image" src="https://github.com/user-attachments/assets/9995d6fd-9be4-41d0-8ab2-c556f3dfeedc" />
 
 ---
 
 ## Pas 35 – Instal·lar-lo seguint l’assistent
 
-* Execute l’instal·lador i segueixo els passos de l’assistent fins que la instal·lació finalitza correctament.
+Anem fins a l'ubicació on es troba el fitxer i amb click dret > Run as administrator l'executem.
 
-![Pas 35 – Procés d’instal·lació del programa](imatges-windows/38.png)
+<img width="542" height="267" alt="image" src="https://github.com/user-attachments/assets/9fb353a8-c8b3-4c47-a057-91a727f4ce99" />
+
+Diem que el volem executar com administració a la confirmació.
+
+<img width="535" height="435" alt="image" src="https://github.com/user-attachments/assets/c05441c2-ace3-4849-a493-e622df86033b" />
+
+I esperem a que s'acabi d'instal·lar correctament.
+
+<img width="635" height="303" alt="image" src="https://github.com/user-attachments/assets/a5e2e4db-1368-490e-829b-7cd72c0b81d1" />
 
 ---
 
 ## Pas 36 – Obrir-lo i comprovar que funciona
 
-* Una vegada instal·lat, obro el programa i comprovo que funciona correctament.
+Una vegada instal·lat, busco el programa, el obro i comprovo que funciona correctament.
 
-![Pas 36 – Programa instal·lat i obert correctament](imatges-windows/39.png)
+<img width="650" height="301" alt="image" src="https://github.com/user-attachments/assets/94432b2f-7e84-4aff-a8cd-318b81066086" />
+
+<img width="931" height="523" alt="image" src="https://github.com/user-attachments/assets/c641f918-3693-4d7e-ab95-94bf776699a6" />
+
+<img width="935" height="523" alt="image" src="https://github.com/user-attachments/assets/47474a7f-d569-427b-bd54-70823a590bb2" />
 
 ---
 
 ## Pas 37 – Instal·lar una aplicació des de Microsoft Store
 
-* També obro la **Microsoft Store**, busco una aplicació i la instal·lo des d’allí.
+Obro la Microsoft Store des del shortcut que tinc a la barra d'eines i al requadre de cerca introdueixo el nom de la app que desitjo instal·lar.
 
-![Pas 37 – Aplicació seleccionada a Microsoft Store](imatges-windows/40.png)
+<img width="847" height="741" alt="image" src="https://github.com/user-attachments/assets/9779495f-f7d9-42dd-939c-d04a9e735f7a" />
+
+Un cop la trobo faig click a sobre.
+
+<img width="744" height="532" alt="image" src="https://github.com/user-attachments/assets/216f4c92-b030-4043-8b24-e5a4d6534979" />
+
+Un cop dins només queda fer click sobre el botó blau _get_ i esperar a que es completi la instal·lació.
+
+<img width="628" height="321" alt="image" src="https://github.com/user-attachments/assets/16ee5bf4-2997-433d-b413-ecfc8b44d0f9" />
 
 ---
 
 ## Pas 38 – Obrir-la i comprovar el funcionament
 
-* Quan acaba la instal·lació, obro l’aplicació i verifico que funciona bé.
+Un cop hagi acabat, puc obrir la app des de la tenda si no la he tancat o buscar la aplicació des del cercador com he fet amb Google Chrome.
 
-![Pas 38 – Aplicació de Microsoft Store oberta](imatges-windows/41.png)
+<img width="734" height="334" alt="image" src="https://github.com/user-attachments/assets/a14477a9-8182-4e14-b718-b42328d54011" />
+
+Acepto termes i condicions.
+
+<img width="581" height="495" alt="image" src="https://github.com/user-attachments/assets/b302ae12-96d1-4050-9c28-f5fe6e231d97" />
+
+I ja tindriem el programa funcionant.
+
+<img width="927" height="678" alt="image" src="https://github.com/user-attachments/assets/7195d670-10f8-4be5-939e-9dcc768c1c1e" />
 
 ---
 
-## Pas 39 – Desinstal·lar una aplicació
+## Pas 39 – Desinstal·lar una aplicació i programa
 
-* Des de **Configuració > Aplicacions**, busco una aplicació instal·lada i la desinstal·lo.
+Des de **Settings > Apps > Installed apps**, busco una aplicació instal·lada i la desinstal·lo.
 
-![Pas 39 – Desinstal·lació de l’aplicació](imatges-windows/42.png)
+<img width="788" height="458" alt="image" src="https://github.com/user-attachments/assets/a61e8a9d-0e00-4765-86d4-9dbd9d57cd46" />
+https://www.google.com/intl/es_es/chrome/
+Per desintal·lar un programa podem fer-ho des d'aqui però és preferible fer-ho des del Taulell de control. Per fer-ho cerquem _Control Panel_.
+
+<img width="725" height="366" alt="image" src="https://github.com/user-attachments/assets/0e5b4d84-3934-413b-9994-7b4305f129c0" />
+
+Després fem click sobre _Uninstall a program_.
+
+<img width="755" height="455" alt="image" src="https://github.com/user-attachments/assets/faf71fa6-9891-4c60-a8c1-3bdfff9a32ca" />
+
+Escollim el programa que volem desinstalar i fem click sobre _Uninstall_. Cal recalcar que en aquest apartat només veurem els programes (és a dir, els que instal·lem amb instal·ladors exe. Les aplicacions que instalessim per la Microsoft Store no apareixeran aqui.
+
+<img width="610" height="255" alt="image" src="https://github.com/user-attachments/assets/cb72793b-8f8a-437d-8af9-d70eeb672ccb" />
+
+Fem click sobre _Yes_.
+
+<img width="495" height="403" alt="image" src="https://github.com/user-attachments/assets/7396cdaf-17c0-43e3-9057-694e0e386a86" />
+
+I finalment sobre _Desinstalar_.
+
+<img width="513" height="208" alt="image" src="https://github.com/user-attachments/assets/9fa6326a-e9bb-47f8-af78-309dfdbdeac2" />
 
 ---
 
 ## Pas 40 – Verificació: comprovar que ja no apareix al sistema
 
-* Finalment, comprovo que l’aplicació desinstal·lada ja no apareix al sistema i que l’eliminació s’ha fet correctament.
+Finalment, comprovo que ni l'aplicació ni el programa apareixen al sistema i que l’eliminació s’ha fet correctament.
 
-![Pas 40 – Verificació final de la desinstal·lació](imatges-windows/43.png)
+<img width="775" height="653" alt="image" src="https://github.com/user-attachments/assets/72a90ea1-81ff-408e-8f63-d4ee17236c87" />
+
+<img width="755" height="660" alt="image" src="https://github.com/user-attachments/assets/2fd8e87b-a7af-4b23-ae11-46efc59788a8" />
 
 ---
 
