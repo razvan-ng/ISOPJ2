@@ -92,6 +92,39 @@ Podria ser el cas que ho hagin actualitzacions pendents. En aquest cas hauriem d
 
 <img width="857" height="630" alt="image" src="https://github.com/user-attachments/assets/ab160250-5fd8-467b-a11d-dcfc0fbbb9f8" />
 
+Ara un cop ha acabat d'actualitzar, ens demanarà d'iniciar sessió amb el nostre compte de Microsoft. Però per fer un compte local hi ha un truc que ens permet saltar-nos aquest pas.
+
+<img width="961" height="697" alt="image" src="https://github.com/user-attachments/assets/7dd3fab0-1ee4-46bf-9b1b-c792a48ca793" />
+
+Fem Shift+F10 i ens surtirà el CMD. Haurem d'escriure la comanda oobe\bypassnro. Un cop fem enter se'ns reiniciarà la màquina.
+
+<img width="1006" height="647" alt="image" src="https://github.com/user-attachments/assets/9da95ea4-82ba-4b5a-b282-237ecf2b80f9" />
+
+Se'ns haurà reiniciat l'assistent. Haurem de seguir els mateixos passos que abans.
+
+<img width="968" height="706" alt="image" src="https://github.com/user-attachments/assets/9abfa248-29f9-4eed-bee6-6e5c82a082b8" />
+
+I ara ja ens deixarà crear un usuari local. Fem click sobre next.
+
+<img width="969" height="699" alt="image" src="https://github.com/user-attachments/assets/366c55af-cabf-4919-a494-881df6f44f36" />
+
+Després ens demanarà configurar una contrasenya.
+
+<img width="983" height="704" alt="image" src="https://github.com/user-attachments/assets/a34da496-cd51-4fa0-bea5-0364e5fab123" />
+<img width="987" height="698" alt="image" src="https://github.com/user-attachments/assets/68564e23-e1c0-424c-9d60-c600c4098577" />
+
+I configurar una sèrie de preguntes de seguretat. Escolliim les que més ens agradin.
+
+<img width="975" height="706" alt="image" src="https://github.com/user-attachments/assets/7f8424c4-0c2e-419a-8a4f-6bc9ec41a950" />
+
+Ara configurem la nostra experiència d'ús. Podem configurar-ho segons les nostres preferències, però com això és una màquina de prova no és tant important.
+
+<img width="980" height="699" alt="image" src="https://github.com/user-attachments/assets/af8b45f6-78d5-4e9f-9ef6-5c69624970d3" />
+<img width="969" height="700" alt="image" src="https://github.com/user-attachments/assets/e41719a0-27ce-4335-9a8a-24ab48a821c5" />
+<img width="964" height="696" alt="image" src="https://github.com/user-attachments/assets/5c3783dd-4b8d-4de3-8e75-f2d88fc4e408" />
+<img width="963" height="698" alt="image" src="https://github.com/user-attachments/assets/74f63eef-a11f-46c6-89c1-55fcd94fcf68" />
+<img width="990" height="688" alt="image" src="https://github.com/user-attachments/assets/542eace5-4c3d-449b-9477-ee3f06ae028a" />
+
 
 ---
 
