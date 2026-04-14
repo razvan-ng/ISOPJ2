@@ -619,4 +619,4 @@ Finalment, comprovo que ni l'aplicació ni el programa apareixen al sistema i qu
 
 # Conclusió
 
-* Amb aquest sprint he après a instal·lar i configurar un sistema Windows dins d’una màquina virtual. També he practicat la creació de punts de restauració, la comprovació de l’activació de Windows, la interpretació del gestor d’arrencada, la configuració bàsica de la xarxa, l’ús de comandes útils i la instal·lació i desinstal·lació d’aplicacions. En general, aquesta pràctica m’ha ajudat a entendre millor l’administració inicial d’un sistema operatiu Windows.
+Amb aquest sprint he après a instal·lar i configurar un sistema Windows dins d’una màquina virtual. També he practicat la creació de punts de restauració, la comprovació de l’activació de Windows, la interpretació del gestor d’arrencada, la configuració bàsica de la xarxa, l’ús de comandes útils i la instal·lació i desinstal·lació d’aplicacions. En general, aquesta pràctica m’ha ajudat a entendre millor l’administració inicial d’un sistema operatiu Windows.
