@@ -36,7 +36,7 @@ En aquest pas carrego la imatge ISO de Windows a la màquina virtual. Ho faig de
 
 ---
 
-## Pas 4 – Instal·lar el sistema (idioma, usuari, contrasenya)
+## Pas 4 – Instal·lar el sistema
 
 Una vegada iniciada la màquina virtual, comença l’assistent d’instal·lació de Windows. Selecciono l’idioma, el format regional i la distribució del teclat. Després segueixo els passos per instal·lar el sistema al disc virtual creat anteriorment.
 
@@ -67,6 +67,30 @@ Ara haurem d'esperar a que es completi.
 
 <img width="527" height="258" alt="image" src="https://github.com/user-attachments/assets/fa14ebc9-8cb5-4899-b8ad-1b22c4cd48bb" />
 
+És possible que l'ordinador es reiniciï. Haurem d'esperar fins que veiguem l'OOBE (_Out Of Box Experience_), que és l'assistent d'instal·lació.
+
+<img width="824" height="629" alt="image" src="https://github.com/user-attachments/assets/fb6bd310-b8bd-4af6-a268-4e1654690a2a" />
+
+Quan hagi arrancat l'assistent primer haurem de triar la regió del sistema.
+
+<img width="922" height="698" alt="image" src="https://github.com/user-attachments/assets/94e4c178-e123-4010-84f9-194d56b70a16" />
+
+Després la distribució del teclat, i li diem que no volem afegir un _layout_ secundari. Si fos el cas, aqui ho podriem configurar.
+
+<img width="952" height="685" alt="image" src="https://github.com/user-attachments/assets/8e5f4866-4df7-47d4-96a2-912811679ebe" />
+<img width="962" height="704" alt="image" src="https://github.com/user-attachments/assets/d02b7989-411a-4d10-888c-fdb710a2c7c1" />
+
+Ara ens demanarà que li posem un nom al dispositiu. És útil fer-ho quan tenim una xarxa amb més d'ún ordinador, però per ara ho ometrem.
+
+<img width="944" height="691" alt="image" src="https://github.com/user-attachments/assets/3c549859-7610-478e-8d9d-f82cc8391cd6" />
+
+Configurem el sistema per ús casolà.
+
+<img width="949" height="683" alt="image" src="https://github.com/user-attachments/assets/f947c822-f434-4514-a944-5b74d9b8fb3e" />
+
+Podria ser el cas que ho hagin actualitzacions pendents. En aquest cas hauriem d'esperar a que es completi.
+
+<img width="857" height="630" alt="image" src="https://github.com/user-attachments/assets/ab160250-5fd8-467b-a11d-dcfc0fbbb9f8" />
 
 
 ---
