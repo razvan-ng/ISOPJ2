@@ -169,7 +169,7 @@ Si anem a l'explorador d'arxius veurem que ens queda 0 bytes disponibles.
 
 <img width="839" height="182" alt="image" src="https://github.com/user-attachments/assets/31fffc9f-9562-4169-923e-8c30966df5e4" />
 
-I si anem als logs de quota veurem que l'usuari1 està per sobre del límit, és a dir, ha fet servir tota la seva quota.
+I si anem als logs de quota veurem que l'usuari alumne1 està per sobre del límit, és a dir, ha fet servir tota la seva quota.
 
 ---
 
