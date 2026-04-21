@@ -175,3 +175,40 @@ I si anem als logs de quota veurem que l'usuari alumne1 està per sobre del lím
 
 # Fase 3 – Scripts de còpia i automatizació.
 
+## Pas 10. Afegir tercer disc virtual, formatar-lo en NTFS com a Backups.
+
+<img width="859" height="525" alt="image" src="https://github.com/user-attachments/assets/775b9065-566f-4eba-b14d-d279d99b9fca" />
+
+Amb la màquina apagada, anem les configuracions de la màquina virtual > _Storage_ i afegim un nou disc virtual.
+
+<img width="964" height="584" alt="image" src="https://github.com/user-attachments/assets/c2a17f52-a4fc-42da-8bcf-d26d41156107" />
+
+Crearem un disc de 20GB.
+
+<img width="948" height="284" alt="image" src="https://github.com/user-attachments/assets/1dcbb297-0202-41cd-833c-2a7ac6623cb0" />
+
+I després el triem.
+
+<img width="758" height="596" alt="image" src="https://github.com/user-attachments/assets/2d1692c8-35ab-4d6b-b95c-06d43c1d515c" />
+
+Anem al administrador de discos i inicialitzem el disc.
+
+<img width="663" height="352" alt="image" src="https://github.com/user-attachments/assets/48218d6c-18bc-4d65-8eb2-0d0e4dea98a3" />
+
+Després fem click dret > _New Simple Volume_. Crearem la partició igual que com hem fet en passos anteriors.
+
+<img width="490" height="390" alt="image" src="https://github.com/user-attachments/assets/c9956fd5-5314-4704-b1c4-833bbd1395ae" />
+
+Ens assegurem de donar els paràmetres correctes.
+
+## Pas 11. Crear carpeta CòpiesUsuaris dins Backups.
+
+<img width="777" height="372" alt="image" src="https://github.com/user-attachments/assets/76538f52-14a3-46bb-80c4-3d09cbcc5d55" />
+
+<img width="637" height="115" alt="image" src="https://github.com/user-attachments/assets/e3fe12fa-6037-4ea0-88d6-5d3c788a52d9" />
+
+Anem a l'explorador d'arxius i creem la carpeta.
+
+## Pas 12. Crear un script .bat que copiï C:\Users\%USERNAME% a E:\CòpiesUsuaris\%USERNAME%.
+
+
