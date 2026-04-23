@@ -229,3 +229,154 @@ Per fer el que se'ns demana podem fer-ho amb el codi següent. Aquest .bat crea 
 
 ## Pas 13. Obre gpedit.msc → Configuració d’usuari → Scripts → Inici de sessió
 
+<img width="764" height="252" alt="image" src="https://github.com/user-attachments/assets/822d5c4f-1b5c-4152-90c5-3e8f59f735e1" />
+
+Busquem al calaix d'aplicacions _gedit.msc_ i l'obrim.
+
+<img width="758" height="529" alt="image" src="https://github.com/user-attachments/assets/2b0bd55c-6174-4f65-840f-7148dc48dd47" />
+
+Després entrem a l'apartat on configurarem els scripts al moment del logon.
+
+<img width="808" height="628" alt="image" src="https://github.com/user-attachments/assets/abcab3d3-f254-48fa-83d6-a98df1796068" />
+
+Després configurem el script perque s'iniciï al moment de l'inici de sessió.
+
+<img width="399" height="458" alt="image" src="https://github.com/user-attachments/assets/8fb8ef2a-8819-4820-8ee5-f5fd6812286f" />
+
+Apliquem els canvis i surtim.
+
+# Fase 4 – Verificació i documentació
+
+## Pas 15. Inicia sessió amb alumne1, comprova que l’script fa la còpia a Backups i que la quota de Dades bloqueja si supera el límit, així com comprovacions que tot el que has configurat funciona correctament
+
+<img width="779" height="202" alt="image" src="https://github.com/user-attachments/assets/c36f25fb-746b-40e2-8d9c-c89901517df7" />
+
+Entrem amb l'usuari i podem veure que tenim la carpeta creada.
+
+<img width="766" height="567" alt="image" src="https://github.com/user-attachments/assets/c50f05c3-45b2-40d2-a7b3-6cd2ba43c5cb" />
+
+I si entrem a la carpeta veurem el contingut de la carpeta del nostre usuari.
+
+# Fase 5 – Gestió de processos i serveis
+
+## Pas 19. Llistar processos actius
+
+<img width="848" height="820" alt="image" src="https://github.com/user-attachments/assets/43b2f58a-6b85-4d58-9af5-73c6800a4a31" />
+
+Si entrem amb l'usuari _alumne1_ i executem la comanda _tasklist_ veurem una llista amb tots els processos en segon plà.
+
+<img width="652" height="189" alt="image" src="https://github.com/user-attachments/assets/b039b0a2-5d2c-4ba4-a5fb-1e116e327142" />
+
+També podem fer un dump de la informació de tasklist a un fitxer txt.
+
+<img width="642" height="893" alt="image" src="https://github.com/user-attachments/assets/a09a31eb-58a0-415f-aa02-96b557c25da4" />
+
+Un cop ha acabat podem entrar a l'arxiu i buscar processos, per exemple, el explorer.exe.
+
+## Pas 20. Identificar processos prescindibles
+
+<img width="692" height="822" alt="image" src="https://github.com/user-attachments/assets/cdb7e193-ce65-4082-90cb-a9f1e175ab08" />
+
+Amb el mateix document generat anteriorment, podem buscar processos com _OneDrive_.
+
+| Nom del procés | Memòria usada | Justificació per eliminar-lo |
+|---|---:|---|
+| OneDrive.exe | 133,984 K | No és un procés essencial per al funcionament bàsic de l’usuari. Si no s’estan sincronitzant fitxers amb OneDrive, es pot tancar per alliberar memòria. |
+
+## Pas 21. Eliminar processos manualment
+
+<img width="676" height="97" alt="image" src="https://github.com/user-attachments/assets/b0de79a9-d193-439d-9b13-7fde3514e89e" />
+
+Amb la consola, podem matar el procés de OneDrive amb taskkill /IM (nom procés) /F.
+
+<img width="823" height="902" alt="image" src="https://github.com/user-attachments/assets/a7503616-a240-4d9e-92dc-bf819d74198c" />
+
+Ara podrem veure que el procés ja no està actiu.
+
+## Pas 22. Automatitzar-ho a l’inici de sessió
+
+<img width="603" height="427" alt="image" src="https://github.com/user-attachments/assets/8bc643eb-995a-4921-b4a6-659d4a12a8e2" />
+
+Modifiquem el script principal per automatitzar l'eliminació de processos al iniciar el sistema.
+
+<img width="651" height="243" alt="image" src="https://github.com/user-attachments/assets/cdbdfed5-75f8-471f-94e9-60fc0efdac5d" />
+
+Afegim aquestes dues linies al final per matar els processos de Teams i OneDrive al iniciar sessió.
+
+<img width="815" height="907" alt="image" src="https://github.com/user-attachments/assets/b17f5ea1-78aa-4618-9aae-d63e9d4e68d2" />
+
+Si executem tasklist amb l'usuari alumne2 veurem que no tenim ni OneDrive executant-se ni Teams.
+
+## Pas 23. Documentació
+
+## Què passa si mates `explorer.exe`
+
+Si es tanca `explorer.exe`, desapareixen l’escriptori i la barra de tasques. El sistema continua encès, però la interfície queda incompleta. Es pot recuperar tornant a executar `explorer.exe` des del Gestor de tasques.
+
+<img width="895" height="881" alt="image" src="https://github.com/user-attachments/assets/6361a65d-49f3-4f6d-b429-26b66b234fe4" />
+
+## Millora del rendiment
+
+Tancar processos no essencials ajuda a alliberar memòria i pot fer que una màquina virtual o un equip amb pocs recursos vagi més fluid. Això millora la resposta general del sistema i redueix la càrrega innecessària.
+
+# Fase 6 – Gestió de permisos (ACLs)
+
+## Pas 24. Crear la carpeta
+
+<img width="443" height="168" alt="image" src="https://github.com/user-attachments/assets/6eea0834-def1-4801-a7de-0df9d52e9583" />
+
+## Pas 25. Assignar permisos normals al grup
+
+<img width="788" height="395" alt="image" src="https://github.com/user-attachments/assets/3b302a2f-1398-4ea9-ba0c-53e57ca70f7f" />
+
+Entrarem a les propietats de la carpeta.
+
+<img width="360" height="489" alt="image" src="https://github.com/user-attachments/assets/f49dc33a-990c-434e-aba8-fec362995830" />
+
+Després entrem a la pestanya de _Security_.
+
+<img width="866" height="901" alt="image" src="https://github.com/user-attachments/assets/fd198bb0-9d7d-4847-af62-25df0f4caa66" />
+
+A _Advanced_ > _Change permissions_ podrem desactivar l'herència i conservar els permissos existents.
+
+<img width="755" height="440" alt="image" src="https://github.com/user-attachments/assets/903fb82d-c7e5-4836-a3ed-727fac5f5330" />
+
+Haurem de borrar el grup Users.
+
+<img width="873" height="927" alt="image" src="https://github.com/user-attachments/assets/42fe479e-aaad-495e-8996-29880fa53994" />
+
+Afegirem el grup Limitats. Escriurem "Limitats" i després farem click a _Check Names_. Un cop estigui tot correcte farem click sobre Ok.
+
+<img width="890" height="594" alt="image" src="https://github.com/user-attachments/assets/a07507d3-53c1-4e6d-b762-550e05be81b5" />
+
+Finalment donarem control total i aplicarem els canvis.
+
+## Pas 26. Comprovar accés amb alumne1.
+
+<img width="784" height="359" alt="image" src="https://github.com/user-attachments/assets/a8e440f1-102d-4331-b474-edc0f7b45489" />
+
+<img width="783" height="372" alt="image" src="https://github.com/user-attachments/assets/81521896-cf1f-4fb8-8bdc-00d9e9b08a48" />
+
+Un cop iniciem sessió podem crear un fitxer de text amb contingut dins. Veurem que el podem crear i eliminar.
+
+## Pas 27. Aplicar excepció per alumne2
+
+<img width="508" height="99" alt="image" src="https://github.com/user-attachments/assets/84dba28c-3e21-4985-a55f-fc72116e4652" />
+
+Això substitueix qualsevol permís anterior d’alumne2 i li dona només lectura.
+
+## Pas 28. Comprovar l'excepció amb alumne2
+
+<img width="779" height="444" alt="image" src="https://github.com/user-attachments/assets/7afaeedb-94b1-428c-8edf-65b6cf2b907d" />
+
+Si iniciem sessió amb alumne2 veurem que podrem llegir l'arxiu.
+
+<img width="786" height="473" alt="image" src="https://github.com/user-attachments/assets/f5770e67-6194-47bd-b6ff-19246df4880c" />
+
+Si per exemple intentem eliminar l'arxiu veurem que no podrem fer-ho i ens demanarà permissos d'administrador.
+
+## Pas 29. Consultar els permisos aplicats
+
+<img width="512" height="181" alt="image" src="https://github.com/user-attachments/assets/684a267b-abf6-4f0d-bdcc-8c89dfe78d68" />
+
+Ara podrem comprovar que el grup té control total però l'usuari només pot llegir.
