@@ -211,4 +211,21 @@ Anem a l'explorador d'arxius i creem la carpeta.
 
 ## Pas 12. Crear un script .bat que copiï C:\Users\%USERNAME% a E:\CòpiesUsuaris\%USERNAME%.
 
+<img width="480" height="399" alt="image" src="https://github.com/user-attachments/assets/527ff7d5-a510-409d-8ae5-63e40dc9b54b" />
+
+Fem click dret i creem un nou document de text.
+
+<img width="146" height="140" alt="image" src="https://github.com/user-attachments/assets/26d383ec-fa36-4382-9570-1568c3c1e421" />
+
+Li posem el nom que vulguem i canviem l'extensió txt per bat.
+
+<img width="345" height="402" alt="image" src="https://github.com/user-attachments/assets/7f7e397c-df62-473a-9d4d-c1e3fad16efa" />
+
+Després de crear el fitxer fem click dret a sobre seu i l'editem amb Bloc de Notes.
+
+<img width="677" height="187" alt="image" src="https://github.com/user-attachments/assets/64b90cd6-abea-4b44-bd2f-843de6c1feda" />
+
+Per fer el que se'ns demana podem fer-ho amb el codi següent. Aquest .bat crea (si no existeix) la carpeta de destí a E:\CòpiesUsuaris\%USERNAME% i copia tota la carpeta de l’usuari (C:\Users\%USERNAME%) cap allí. Inclou subcarpetes i fitxers ocults, no demana confirmacions i continua encara que hi hagi errors. Al final es queda obert per veure el resultat.
+
+## Pas 13. Obre gpedit.msc → Configuració d’usuari → Scripts → Inici de sessió
 
