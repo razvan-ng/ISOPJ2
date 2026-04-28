@@ -50,5 +50,31 @@ Creem un nou usuari.
 
 I configurem l'usuari.
 
+<img width="440" height="381" alt="image" src="https://github.com/user-attachments/assets/549cb56d-28ef-432e-a1c9-487fc6006e71" />
+
+
 ## Client
 
+<img width="674" height="341" alt="image" src="https://github.com/user-attachments/assets/a77dcafd-60a5-480d-9bac-a0388601ca6c" />
+
+Comprovem que estem a la mateixa xarxa.
+
+<img width="560" height="271" alt="image" src="https://github.com/user-attachments/assets/37e8f969-22d7-421b-a2bf-76d39adfbeee" />
+
+Comprovem la connectivitat amb el servidor.
+
+<img width="503" height="699" alt="image" src="https://github.com/user-attachments/assets/162ec84f-3657-4935-ba7d-cb2c4ec8ad26" />
+
+Afegim com DNS primari la IP del server.
+
+<img width="417" height="470" alt="image" src="https://github.com/user-attachments/assets/f4066ea7-82cc-44cd-bc3f-c9fdd355d8ac" />
+
+Afegim el domini al client.
+
+<img width="453" height="368" alt="image" src="https://github.com/user-attachments/assets/e082c61a-b0ae-452e-bed6-3ac895046f23" />
+
+I introduïm les dades de l'usuari que hem creat anteriorment.
+
+<img width="351" height="151" alt="image" src="https://github.com/user-attachments/assets/1aa61be5-ecf0-4384-a367-9bdc44f18323" />
+
+Rebrem el missatge següent.
