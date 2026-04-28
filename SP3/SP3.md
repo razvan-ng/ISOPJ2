@@ -78,3 +78,11 @@ I introduïm les dades de l'usuari que hem creat anteriorment.
 <img width="351" height="151" alt="image" src="https://github.com/user-attachments/assets/1aa61be5-ecf0-4384-a367-9bdc44f18323" />
 
 Rebrem el missatge següent.
+
+<img width="824" height="935" alt="image" src="https://github.com/user-attachments/assets/d89bc4a5-9d67-43aa-b49e-90c18a1fc021" />
+
+Un cop reiniciem l'ordinador, podrem iniciar sessió mitjançant l'usuari d'Active Directory.
+
+<img width="363" height="169" alt="image" src="https://github.com/user-attachments/assets/2b9d47e7-8ed3-410d-98a3-2d322dbb04fc" />
+
+Ara veurem que hem iniciat sessió amb AD correctament.
