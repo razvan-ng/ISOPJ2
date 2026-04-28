@@ -21,3 +21,16 @@ Activem l'Active Directory al Taulell d'administrador.
 <img width="779" height="556" alt="image" src="https://github.com/user-attachments/assets/88c83221-d3fc-4793-8060-ec03c966e3df" />
 
 Esperem que s'acabi l'instal·lació de la característica.
+
+<img width="758" height="565" alt="image" src="https://github.com/user-attachments/assets/aac7ada7-33b3-44c0-8897-80106093b8c2" />
+
+Configurem un nou bosc. 
+
+<img width="759" height="565" alt="image" src="https://github.com/user-attachments/assets/4f9e72af-a2ec-446e-80de-5e62010dad05" />
+
+Podriem configurar el nivell funcional del bosc en cas que el server treballi en algún server més. Després de configurar la contrasenya haurem de fer click _Siguiente_ fins al final.
+
+<img width="763" height="562" alt="image" src="https://github.com/user-attachments/assets/7031da9e-08c8-42d6-b525-6c6b7e70ef76" />
+
+Un cop acabi la configuració i instal·lació del Active Directory, rebrem aquest missatge dient-nos que el server es reiniciarà.
+
