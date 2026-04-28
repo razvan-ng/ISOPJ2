@@ -14,3 +14,10 @@ Haurem de configurar la IP Fixa al servidor.
 
 Un cop configurada la IP del server, comprovem amb ping la connectivitat del client al server.
 
+<img width="783" height="556" alt="image" src="https://github.com/user-attachments/assets/1c12c283-e5b8-4a3e-bda1-d6d054ea6a5a" />
+
+Activem l'Active Directory al Taulell d'administrador.
+
+<img width="779" height="556" alt="image" src="https://github.com/user-attachments/assets/88c83221-d3fc-4793-8060-ec03c966e3df" />
+
+Esperem que s'acabi l'instal·lació de la característica.
