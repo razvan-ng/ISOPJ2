@@ -83,3 +83,60 @@ Generem fitxers de prova al RAID.
 
 <img width="334" height="107" alt="image" src="https://github.com/user-attachments/assets/0974a5b2-4930-467e-92b7-6d9cb8dd8e28" />
 
+---
+
+# Pas 5. Simulació de fallada (treure un disc)
+
+<img width="758" height="917" alt="image" src="https://github.com/user-attachments/assets/f99895c1-a308-4f39-8134-48df6044991e" />
+
+Per simular una fallada tornem al Administrador de discos i fent click dret sobre el disc, el marcarem com sense connexió.
+
+<img width="663" height="196" alt="image" src="https://github.com/user-attachments/assets/78636a2f-6bca-4f3b-a49a-df6e8dba6bd9" />
+
+Tot i això veurem que continuem tenint accés als fitxers.
+
+<img width="298" height="129" alt="image" src="https://github.com/user-attachments/assets/d30ca222-27c2-43c7-991e-f1ded34d93d3" />
+
+I al seu contingut.
+
+---
+
+# Pas 6. Simulació de segona fallada
+
+<img width="728" height="452" alt="image" src="https://github.com/user-attachments/assets/72b6890f-c1f4-432e-b0ee-e16699d45cc2" />
+
+Ara si marquem un altre disc com _Offline_ veurem que el RAID sencer està amb error ja que RAID 5 només tolera una fallada.
+
+<img width="820" height="449" alt="image" src="https://github.com/user-attachments/assets/4557a94f-51ed-4fc7-ac3a-9a0fd7d078e5" />
+
+I veurem que hem perdut l'accés als fitxer emmatgatzemats.
+
+---
+
+# Pas 7. Recuperació
+
+<img width="723" height="433" alt="image" src="https://github.com/user-attachments/assets/5026089a-1467-41b8-8eb1-43b2fa9ce683" />
+
+Fent click dret sobre el disc que volem activar, al desplegable que ens surtirà fem click sobre _En línea_.
+
+<img width="735" height="405" alt="image" src="https://github.com/user-attachments/assets/7f4f1b85-9d86-4e95-b90a-3287f223ddca" />
+
+Ara veurem que tenim error de redundàcia, però podriem continuar accedint a la informació.
+
+<img width="866" height="467" alt="image" src="https://github.com/user-attachments/assets/934ee75a-af53-4738-9ec4-fce9747cee25" />
+
+Com podem veure, el volum ha aparegut.
+
+<img width="766" height="198" alt="image" src="https://github.com/user-attachments/assets/870ad5d4-73cd-4dc9-b4de-598d0b84a481" />
+
+I los arxius també.
+
+---
+
+# Pas 8. Conclusions i observacions
+
+El **RAID 5** és una solució d’emmagatzematge que reparteix les dades i la paritat entre tots els discos. Això permet que el sistema pugui continuar funcionant encara que falli **un sol disc**, ja que la informació es pot reconstruir a partir de la paritat.
+
+Tot i això, cal tenir clar que un RAID 5 **no substitueix una còpia de seguretat**. Serveix per donar redundància i millorar la disponibilitat del sistema, però si fallen dos discos al mateix temps, es poden perdre les dades.
+
+En resum, RAID 5 és útil per protegir-se davant d’una fallada simple de disc, però sempre s’hauria de combinar amb un sistema de còpies de seguretat extern.
