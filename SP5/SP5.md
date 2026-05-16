@@ -64,3 +64,37 @@ Si desactivem l’usuari, Windows registra l’Event ID 4725, corresponent a la 
 <img width="876" height="522" alt="image" src="https://github.com/user-attachments/assets/ea6295be-e0a5-4f6f-b47f-780fea2e09c6" />
 
 Finalment, eliminem l’usuari creat. Aquesta acció registra l’Event ID 4726, corresponent a l’eliminació d’un compte d’usuari.
+
+# Monitorització
+
+<img width="999" height="819" alt="image" src="https://github.com/user-attachments/assets/f827df29-bc4e-4ff9-b8d3-4878ab71be83" />
+
+Primer obrim l’Administrador de tasques des de la barra de tasques.
+
+<img width="687" height="539" alt="image" src="https://github.com/user-attachments/assets/15d5db3a-348f-4ecf-a850-671354570de0" />
+
+<img width="708" height="531" alt="image" src="https://github.com/user-attachments/assets/2c293920-f0a5-4d15-8220-00472861d19a" />
+
+<img width="694" height="568" alt="image" src="https://github.com/user-attachments/assets/fc35fdd4-5c92-43cd-818a-7ebf0afc1f12" />
+
+Dins l’Administrador de tasques podem consultar el consum de recursos de les aplicacions i serveis actius, també separat per usuari.
+
+<img width="794" height="596" alt="image" src="https://github.com/user-attachments/assets/dd77ec81-a046-4672-b7a3-39c636d4f939" />
+
+Una altra eina útil és el Monitor de recursos, que mostra informació més detallada dels processos, serveis i recursos del sistema.
+
+<img width="802" height="602" alt="image" src="https://github.com/user-attachments/assets/4bd546c0-28a4-4d66-8e8c-de09855d692f" />
+
+A la pestanya CPU podem veure els processos actius, l’ús del processador i altres dades de rendiment del sistema.
+
+<img width="795" height="596" alt="image" src="https://github.com/user-attachments/assets/dccd50a7-485b-4362-8c7b-5d323df4c375" />
+
+A l’apartat Memòria es mostra l’ús de la RAM i la memòria disponible del sistema.
+
+<img width="792" height="597" alt="image" src="https://github.com/user-attachments/assets/f2e187ab-dc0e-4261-be3e-d4f2ccf4773e" />
+
+A l’apartat Memòria es mostra l’ús de la RAM i la memòria disponible del sistema.
+
+<img width="796" height="604" alt="image" src="https://github.com/user-attachments/assets/6692ec1a-3472-48a0-9c6d-93e16df9a0c3" />
+
+A l’apartat Memòria es mostra l’ús de la RAM i la memòria disponible del sistema.
